@@ -1,0 +1,439 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3615658300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "to launch the browser",
+            "match": {
+              "location": "home.to_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3162674800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter the url to launch",
+            "match": {
+              "location": "home.enter_the_url_to_launch()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Verify AREASOFSCENTING Site.",
+        "description": "",
+        "id": "navigate-to-scentarts-site.;verify-areasofscenting-site.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2091316100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click the About us button",
+            "match": {
+              "location": "home.click_the_About_us_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40284300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Scroll to Areas of Scenting",
+            "match": {
+              "location": "home.scroll_to_Areas_of_Scenting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3132812600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify Descriptions for Hotels",
+            "match": {
+              "location": "home.verify_Descriptions_for_Hotels()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171793800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify Descriptions for offices",
+            "match": {
+              "location": "home.verify_Descriptions_for_offices()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97759100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify Descriptions for Airports",
+            "match": {
+              "location": "home.verify_Descriptions_for_Airports()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the descriptions must be viewed",
+            "match": {
+              "location": "home.the_descriptions_must_be_viewed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2521204800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "to launch the browser",
+            "match": {
+              "location": "home.to_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2613150600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter the url to launch",
+            "match": {
+              "location": "home.enter_the_url_to_launch()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Navigate to ContactUs from Our Service",
+        "description": "",
+        "id": "navigate-to-scentarts-site.;navigate-to-contactus-from-our-service",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 853650000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click the Our Services button",
+            "match": {
+              "location": "services.click_the_Our_Services_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42075100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Scroll to Contact Us button",
+            "match": {
+              "location": "services.scroll_to_Contact_Us_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1604725100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click the Contact us page",
+            "match": {
+              "location": "services.click_the_Contact_us_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34043500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Contact us page mustbe viewed",
+            "match": {
+              "location": "services.contact_us_page_mustbe_viewed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to SCENTARTS Site.",
+    "description": "",
+    "id": "navigate-to-scentarts-site.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/ScentArtsOne.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Check all functionalities on the Contact Us page by passing valid Data",
+        "description": "",
+        "id": "verify-contactus-page-functionality-of-scent-arts-site.;check-all-functionalities-on-the-contact-us-page-by-passing-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2814111900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch the Browser sc three",
+            "match": {
+              "location": "formfields.launch_the_browser_sc_three()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2721914800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the url sc three",
+            "match": {
+              "location": "formfields.enter_the_url_sc_three()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1970461000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click the Contact us page SC-Three",
+            "match": {
+              "location": "formfields.click_the_Contact_us_page_SC_Three()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30660700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify contact us page has opened or not",
+            "match": {
+              "location": "formfields.verify_contact_us_page_has_opened_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3145054500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter Your full Name",
+            "match": {
+              "location": "formfields.enter_Your_full_Name(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Vicky",
+                  "Rocky",
+                  "Jacky"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142122500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter your company name",
+            "match": {
+              "location": "formfields.enter_your_company_name(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "inmakes",
+                  "Imakes",
+                  "HiMakes"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137584700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter your phone number",
+            "match": {
+              "location": "formfields.enter_your_phone_number(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "64964485",
+                  "548544",
+                  "654465"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135467400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter email address",
+            "match": {
+              "location": "formfields.enter_email_address(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "hgdd@gmail.com",
+                  "hguj@gmail.com",
+                  "55jii@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "kvekj@gmail.com",
+                  "hfi@gmail.com",
+                  "ikd@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221158900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "select the type of service",
+            "match": {
+              "location": "formfields.select_the_type_of_service()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135423100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "select the country",
+            "match": {
+              "location": "formfields.select_the_country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203058100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enter your message",
+            "match": {
+              "location": "formfields.enter_your_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144504400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click the send button",
+            "match": {
+              "location": "formfields.click_the_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3050905600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "check wheather the message sent or not",
+            "match": {
+              "location": "formfields.check_wheather_the_message_sent_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify ContactUs Page Functionality of SCENT arts site.",
+    "description": "",
+    "id": "verify-contactus-page-functionality-of-scent-arts-site.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/ScentFunctionality.feature",
+    "tags": []
+  }
+]

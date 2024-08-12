@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="34.839184">
+    <testcase classname="Navigate to SCENTARTS Site." name="Verify AREASOFSCENTING Site." time="12.316628">
+        <system-out><![CDATA[Given to launch the browser.................................................passed
+Given enter the url to launch...............................................passed
+And Click the About us button...............................................passed
+And Scroll to Areas of Scenting.............................................passed
+And verify Descriptions for Hotels..........................................passed
+And verify Descriptions for offices.........................................passed
+And verify Descriptions for Airports........................................passed
+Then the descriptions must be viewed........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Navigate to SCENTARTS Site." name="Navigate to ContactUs from Our Service" time="7.669285">
+        <system-out><![CDATA[Given to launch the browser.................................................passed
+Given enter the url to launch...............................................passed
+And click the Our Services button...........................................passed
+And Scroll to Contact Us button.............................................passed
+And Click the Contact us page...............................................passed
+Then Contact us page mustbe viewed..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify ContactUs Page Functionality of SCENT arts site." name="Check all functionalities on the Contact Us page by passing valid Data" time="14.853271">
+        <system-out><![CDATA[Given launch the Browser sc three...........................................passed
+And enter the url sc three..................................................passed
+And Click the Contact us page SC-Three......................................passed
+And verify contact us page has opened or not................................passed
+And Enter Your full Name....................................................passed
+And enter your company name.................................................passed
+And enter your phone number.................................................passed
+And enter email address.....................................................passed
+And select the type of service..............................................passed
+And select the country......................................................passed
+And Enter your message......................................................passed
+And Click the send button...................................................passed
+Then check wheather the message sent or not.................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
